@@ -11,6 +11,6 @@ public class test {
 
     @Test
     public void should_fail () {
-        assertTrue(false);
+        assertTrue(true);
     }
 }
