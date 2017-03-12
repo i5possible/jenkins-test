@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                gradle test;
+                sh 'gradle test';
             }
         }
         stage('Deploy') {
